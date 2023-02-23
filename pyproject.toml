@@ -34,7 +34,7 @@ ignore = [
     "D213",  # Multi-line docstring summary should start at the second line
     # "N802",  # Function name should be lowercase  (uncomment if you want to allow Uppercase function names)
     # "N803",  # Argument name should be lowercase  (uncomment if you want to allow Uppercase argument names)
-    # "N806",  # Variable in function should be lowercase  (uncomment if you want to allow Uppercase variable names in functions)
+    "N806",  # Variable in function should be lowercase  (uncomment if you want to allow Uppercase variable names in functions)
     # "N815",  # Variable in class scope should not be mixedCase  (uncomment if you want to allow mixedCase variable names in class scope)
     # "N816",  # Variable in global scope should not be mixedCase  (uncomment if you want to allow mixedCase variable names in global scope)
     ]
@@ -74,6 +74,8 @@ exclude = [
     "**/__pycache__",
     "./docs/source/conf.py",
     "./src/folder_to_be_ignored",
+    "./src/mypackage/demo_type_hints_01.py",
+    "./src/mypackage/somewhere_deep_in_an_external_package.py",
 ]
 extraPaths = ["./src"]
 typeCheckingMode = "basic"
