@@ -16,6 +16,7 @@ exclude = [
     "__pycache__",
     "./docs/source/conf.py",
     "./src/folder_to_be_ignored",
+    "./src/mypackage/somewhere_deep_in_an_external_package.py",
 ]
 src = ["src"]
 ignore = [
@@ -74,8 +75,14 @@ exclude = [
     "**/__pycache__",
     "./docs/source/conf.py",
     "./src/folder_to_be_ignored",
-    "./src/mypackage/demo_type_hints_01.py",
+    "./src/mypackage/demo_type_hints_and_naming_01.py",
     "./src/mypackage/somewhere_deep_in_an_external_package.py",
+    "./src/mypackage/demo_comments_and_docstrings.py",
+    "./src/mypackage/demo_comments_and_docstrings_01.py",
+    "./src/mypackage/demo_comments_and_docstrings_02.py",
+    "./src/mypackage/demo_comments_and_docstrings_03.py",
+    "./src/mypackage/demo_duck_typing.py",
+    "./src/mypackage/demo_duck_typing_01.py",
 ]
 extraPaths = ["./src"]
 typeCheckingMode = "basic"
