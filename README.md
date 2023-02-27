@@ -1,30 +1,6 @@
-# mypackage
-mypackage is an example package
-
-mypackage supports
-* ..
-
-
-## Installation
-```sh
-pip install .
-```
-
-## Usage Example
-
-API:
-~~~py
-from mypackage import ...
-
-~~~
-
-CLI:
-~~~sh
-mypackage ...
-~~~
-
-_For more examples and usage, please refer to mypackage's [documentation][mypackage_docs]._
-
+# python_code_quality
+python_code_quality is an example package containing demo code for the
+Python Code Quality talk.
 
 ## Development Setup
 
@@ -36,13 +12,13 @@ _For more examples and usage, please refer to mypackage's [documentation][mypack
     $ python -m pip install --upgrade pip setuptools
     ~~~
 
-3. git clone the mypackage repository into your local development directory:
+3. git clone the python_code_quality repository into your local development directory:
 
     ~~~sh
-    git clone https://github.com/AuthorOne/mypackage path/to/your/dev/mypackage
+    git clone https://github.com/ClaasRostock/python_code_quality path/to/your/dev/python_code_quality
     ~~~
 
-4. In the mypackage root folder:
+4. In the python_code_quality root folder:
 
     Create a Python virtual environment:
     ~~~sh
@@ -61,28 +37,24 @@ _For more examples and usage, please refer to mypackage's [documentation][mypack
     ~~~sh
     $ python -m pip install --upgrade pip setuptools
     ~~~
-    Install mypackage's dependencies:
+    Install python_code_quality's dependencies:
     ~~~sh
-    $ pip install -r requirements.txt
+    $ pip install -r requirements-dev.txt
     ~~~
 
 ## Meta
 
-Copyright (c) 2023 [Author One](https://github.com/AuthorOne)
+Copyright (c) 2023 [Claas Rostock](https://github.com/ClaasRostock)
 
-Author One – [@LinkedIn](https://www.linkedin.com/in/authorone) – author.one@xyz.com
-
-Author Two – [@LinkedIn](https://www.linkedin.com/in/authortwo) – author.two@xyz.com
-
-Author Three – [@LinkedIn](https://www.linkedin.com/in/authorthree) – author.three@xyz.com
+Claas Rostock – [@LinkedIn](https://www.linkedin.com/in/claasrostock/?locale=en_US) – claas.rostock@dnv.com
 
 Distributed under the MIT license. See [LICENSE](LICENSE.md) for more information.
 
-[https://github.com/AuthorOne/mypackage](https://github.com/AuthorOne/mypackage)
+[https://github.com/ClaasRostock/python_code_quality](https://github.com/ClaasRostock/python_code_quality)
 
 ## Contributing
 
-1. Fork it (<https://github.com/AuthorOne/mypackage/fork>)
+1. Fork it (<https://github.com/ClaasRostock/python_code_quality/fork>)
 2. Create your branch (`git checkout -b myBranchName`)
 3. Commit your changes (`git commit -am 'place your commit message here'`)
 4. Push to the branch (`git push origin myBranchName`)
@@ -91,4 +63,4 @@ Distributed under the MIT license. See [LICENSE](LICENSE.md) for more informatio
 For your contribution, please make sure you follow the [STYLEGUIDE](STYLEGUIDE.md) before creating the Pull Request.
 
 <!-- Markdown link & img dfn's -->
-[mypackage_docs]: https://AuthorOne.github.io/mypackage/README.html
+[python_code_quality_docs]: https://github.com/ClaasRostock/python_code_quality/README.html

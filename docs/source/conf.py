@@ -18,12 +18,12 @@ sys.path.insert(0, os.path.abspath("../../src"))
 
 # -- Project information -----------------------------------------------------
 
-project = "mypackage"
-copyright = "2023, Author One"
-author = "Author One, Author Two, Author Three"
+project = "python_code_quality"
+copyright = "2023, Claas Rostock"
+author = "Claas Rostock, Author Two, Author Three"
 
 # The full version, including alpha/beta/rc tags
-release = "0.0.1"
+release = "0.10"
 
 # -- General configuration ---------------------------------------------------
 

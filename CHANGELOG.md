@@ -1,46 +1,27 @@
 # Changelog
 
-All notable changes to the [mypackage] project will be documented in this file.<br>
+All notable changes to the [python_code_quality] project will be documented in this file.<br>
 The changelog format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
 * -/-
 
-
-## [0.0.1] - 2023-02-21
+## [0.1.0] - 2023-02-27
 
 * Initial release
 
 ### Added
 
-* added this
-
-### Changed
-
-* changed that
-
-### Dependencies
-
-* updated to some_package_on_pypi>=0.1.0
-
-### Fixed
-
-* fixed issue #12345
-
-### Deprecated
-
-* following features will soon be removed and have been marked as deprecated:
-    * function x in module z
-
-### Removed
-
-* following features have been removed:
-    * function y in module z
+* demo_type_hints_and_naming
+* demo_comments_and_docstrings
+* demo_sourcery
+* demo_dynamic_typing
+* demo_duck_typing
 
 
 
 <!-- Markdown link & img dfn's -->
-[unreleased]: https://github.com/AuthorOne/mypackage/compare/v0.0.1...HEAD
-[0.0.1]: https://github.com/AuthorOne/mypackage/releases/tag/v0.0.1
-[mypackage]: https://github.com/AuthorOne/mypackage
+[unreleased]: https://github.com/ClaasRostock/python_code_quality/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ClaasRostock/python_code_quality/releases/tag/v0.1.0
+[python_code_quality]: https://github.com/ClaasRostock/python_code_quality
