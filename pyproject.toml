@@ -75,6 +75,7 @@ exclude = [
     "**/__pycache__",
     "./docs/source/conf.py",
     "./src/folder_to_be_ignored",
+    "./src/mypackage/demo_type_hints_and_naming.py",
     "./src/mypackage/demo_type_hints_and_naming_01.py",
     "./src/mypackage/somewhere_deep_in_an_external_package.py",
     "./src/mypackage/demo_comments_and_docstrings.py",
