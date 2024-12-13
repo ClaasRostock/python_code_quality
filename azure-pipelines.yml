@@ -66,7 +66,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
         displayName: Install dependencies
-      - script: pip install pyright==1.1.336
+      - script: pip install pyright>=1.1.390
         displayName: Install pyright
       - script: pyright .
         displayName: Run pyright
