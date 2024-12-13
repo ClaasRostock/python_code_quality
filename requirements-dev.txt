@@ -1,7 +1,7 @@
 pytest>=7.4
 pytest-cov>=4.1
 pytest-randomly>=3.15
-black[jupyter]==23.11
+black[jupyter]>=24.10
 ruff==0.1.6
 pyright==1.1.336
 Sphinx>=7.2
