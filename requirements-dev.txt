@@ -1,5 +1,5 @@
 pytest>=8.3
-pytest-cov>=4.1
+pytest-cov>=6.0
 pytest-randomly>=3.15
 black[jupyter]>=24.10
 ruff>=0.8.3
